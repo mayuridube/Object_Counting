@@ -1,5 +1,5 @@
 # USAGE
-# python watershed.py --image images/coins_01.png
+# python watershed.py --image test_images/coins.png
 
 # import the necessary packages
 from skimage.feature import peak_local_max
@@ -10,14 +10,14 @@ import argparse
 import cv2
 
 # construct the argument parse and parse the arguments
-# ap = argparse.ArgumentParser()
-# ap.add_argument("-i", "--image", required=True,
-# 	help="path to input image")
-# args = vars(ap.parse_args())
+ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--image", required=True,
+	help="path to input image")
+args = vars(ap.parse_args())
 
 # load the image and perform pyramid mean shift filtering
 # to aid the thresholding step
-image = cv2.imread("./6.jpg")
+image = cv2.imread(args["image"])
 shifted = cv2.pyrMeanShiftFiltering(image, 21, 51)
 cv2.imshow("Input", image)
 
@@ -68,4 +68,5 @@ for label in np.unique(labels):
 
 # show the output image
 cv2.imshow("Output", image)
+cv2.imwrite("./watershed_op/2_op.jpg",image)
 cv2.waitKey(0)
