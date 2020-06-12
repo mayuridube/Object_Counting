@@ -12,5 +12,5 @@ e.g: output of watershed algorithm:<br>
 Sample image:<br>
 <img src="https://github.com/mayuridube/watershed_algorithm/blob/master/test_images/coins.png"></img><br>
 
-output image:
+output image:<br>
 <img src="https://github.com/mayuridube/watershed_algorithm/blob/master/watershed_op/coins_op.jpg"></img>
