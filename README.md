@@ -10,7 +10,7 @@ we are able to detect and extract each coin  without a problem.
 e.g: output of watershed algorithm:<br>
 
 Sample image:<br>
-<img src="https://github.com/mayuridube/watershed_algorithm/blob/master/test_images/coins.png"><br></img>
-<br>
+<img src="https://github.com/mayuridube/watershed_algorithm/blob/master/test_images/coins.png"></img><br>
+
 output image:
-<img src="https://github.com/mayuridube/watershed_algorithm/blob/master/watershed_op/coins_op.jpg"><br></img>
+<img src="https://github.com/mayuridube/watershed_algorithm/blob/master/watershed_op/coins_op.jpg"></img>
