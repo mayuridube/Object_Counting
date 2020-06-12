@@ -10,4 +10,4 @@ we are able to detect and extract each coin  without a problem.
 e.g: output of watershed algorithm:<br>
 
 Sample image:<br>
-![Test Image 3] ./watershed_algorithm/test_images/coins.png 
+![Test Image 3] (./watershed_algorithm/test_images/coins.png)
