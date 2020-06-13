@@ -16,7 +16,7 @@ e.g: output of watershed algorithm:<br>
 
 
 <p align="center">
- <img src="https://github.com/mayuridube/watershed_algorithm/blob/master/watershed_op/coins_op.jpg"></img>
+ <img src="https://github.com/mayuridube/watershed_algorithm/blob/master/watershed_op/coins_op.jpg"></img><br>
  Fig:2 output image:<br>
 </p>
 
