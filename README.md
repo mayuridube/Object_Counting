@@ -1,4 +1,4 @@
-# watershed_algorithm
+# Watershed Algorithm For Object Counting
 
 The watershed algorithm is a classic algorithm used for segmentation and is especially useful when extracting 
 touching or overlapping objects in images, such as the coins or medicines in the figure below.
