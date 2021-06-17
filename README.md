@@ -7,7 +7,7 @@ Using traditional image processing methods such as thresholding and contour dete
 we would be unable to extract each individual coin from the image.but by leveraging the watershed algorithm, 
 we are able to detect and extract each coin  without a problem.
 
-Usage:
+<h3>Usage:</h3>
 $ python3 watershed.py --image ./test_images/coins.png
 
 e.g: output of watershed algorithm:<br>
