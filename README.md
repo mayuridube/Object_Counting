@@ -8,9 +8,9 @@ we would be unable to extract each individual coin from the image.but by leverag
 we are able to detect and extract each coin  without a problem.
 
 <h3>Usage:</h3>
-$ python3 watershed.py --image ./test_images/coins.png
+$ python3 watershed.py --image ./test_images/coins.png<br>
 
-e.g: output of watershed algorithm:<br>
+<h3> Output of watershed algorithm: </h3>
 
 <p align="center">
  <img src="https://github.com/mayuridube/watershed_algorithm/blob/master/test_images/coins.png"></img><br>
